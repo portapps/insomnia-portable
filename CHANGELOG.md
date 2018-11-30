@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2.3-5 (2018/11/30)
+
+* Upgrade to Insomnia 6.2.3
+
 ## 6.2.0-4 (2018/11/09)
 
 * Upgrade to Insomnia 6.2.0
