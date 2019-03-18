@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.3.2-8 (2019/03/18)
+
+* Portapps 1.20.3
+
 ## 6.3.2-7 (2018/12/20)
 
 * Upgrade to Insomnia 6.3.2
