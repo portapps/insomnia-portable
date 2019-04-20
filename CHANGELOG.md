@@ -1,32 +1,37 @@
 # Changelog
 
+## 6.4.0-3 (2019/04/20)
+
+* Insomnia 6.4.0
+* Portapps 1.22.1
+
 ## 6.3.2-1 (2019/03/18)
 
 * Portapps 1.20.3
 
 ## 6.3.2-7 (2018/12/20)
 
-* Upgrade to Insomnia 6.3.2
+* Insomnia 6.3.2
 
 ## 6.3.0-6 (2018/12/15)
 
-* Upgrade to Insomnia 6.3.0
+* Insomnia 6.3.0
 
 ## 6.2.3-5 (2018/11/30)
 
-* Upgrade to Insomnia 6.2.3
+* Insomnia 6.2.3
 
 ## 6.2.0-4 (2018/11/09)
 
-* Upgrade to Insomnia 6.2.0
+* Insomnia 6.2.0
 
 ## 6.0.2-3 (2018/10/21)
 
-* Upgrade to Insomnia 6.0.2
+* Insomnia 6.0.2
 
 ## 6.0.1-2 (2018/07/26)
 
-* Upgrade to Insomnia 6.0.1
+* Insomnia 6.0.1
 
 ## 5.16.6-1 (2018/07/13)
 
