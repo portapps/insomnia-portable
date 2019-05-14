@@ -10,9 +10,15 @@
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WQD7AQGPDEPSG"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
 
+## Notice of Non-Affiliation and Disclaimer
+
+Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Insomnia, or any of its subsidiaries or its affiliates. The official Insomnia website can be found at https://insomnia.rest/.
+
+The name Insomnia® as well as related names, marks, emblems and images are registered trademarks of their respective owners.
+
 ## About
 
-[Insomnia REST Client](https://insomnia.rest/) portable app made with 🚀 [Portapps](https://portapps.io).<br />
+Insomnia REST Client portable app made with 🚀 [Portapps](https://portapps.io).<br />
 Documentation and downloads can be found on https://portapps.io/app/insomnia-portable/
 
 ## How can I help ?
