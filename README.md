@@ -12,13 +12,15 @@
 
 ## Notice of Non-Affiliation and Disclaimer
 
-Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Insomnia, or any of its subsidiaries or its affiliates. The official Insomnia website can be found at https://insomnia.rest/.
+Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Insomnia™, or any of its subsidiaries or its affiliates.
 
-The name Insomnia® as well as related names, marks, emblems and images are registered trademarks of their respective owners.
+The official Insomnia™ website can be found at https://insomnia.rest/.
+
+The name Insomnia™ as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
 ## About
 
-Insomnia REST Client portable app made with 🚀 [Portapps](https://portapps.io).<br />
+Insomnia™ REST Client portable app made with 🚀 [Portapps](https://portapps.io).<br />
 Documentation and downloads can be found on https://portapps.io/app/insomnia-portable/
 
 ## How can I help ?
