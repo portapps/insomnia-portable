@@ -7,8 +7,6 @@
   <a href="https://github.com/portapps/portapps"><img src="https://img.shields.io/badge/portapps-1.25.0-479fdb.svg?style=flat-square" alt="Portapps version"></a>
   <a href="https://goreportcard.com/report/github.com/portapps/insomnia-portable"><img src="https://goreportcard.com/badge/github.com/portapps/insomnia-portable?style=flat-square" alt="Go Report"></a>
   <a href="https://www.codacy.com/app/portapps/insomnia-portable"><img src="https://img.shields.io/codacy/grade/22152d66651b42269c62215c2d402986.svg?style=flat-square" alt="Code Quality"></a>
-  <br /><a href="https://www.patreon.com/crazymax"><img src="https://img.shields.io/badge/donate-patreon-fb664e.svg?style=flat-square" alt="Support me on Patreon"></a>
-  <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
 
 ## Notice of Non-Affiliation and Disclaimer
