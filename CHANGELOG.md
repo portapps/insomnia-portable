@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.0.6-15 (2019/12/18)
+
+* Insomnia 7.0.6
+* Add `cleanup` config
+* Portapps 1.31.0
+
 ## 7.0.5-14 (2019/12/03)
 
 * Insomnia 7.0.5
