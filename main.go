@@ -50,6 +50,8 @@ func main() {
 		}()
 	}
 
+	utl.OverrideEnv("INSOMNIA_DATA_PATH", app.DataPath)
+
 	defer app.Close()
 	app.Launch(os.Args[1:])
 }
