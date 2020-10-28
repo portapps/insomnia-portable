@@ -40,6 +40,9 @@ func main() {
 
 	app.Process = utl.PathJoin(electronBinPath, "Insomnia.exe")
 	app.WorkingDir = electronBinPath
+	app.Args = []string{
+		"--user-data-dir=" + app.DataPath,
+	}
 
 	// Cleanup on exit
 	if cfg.Cleanup {
@@ -51,6 +54,7 @@ func main() {
 	}
 
 	utl.OverrideEnv("INSOMNIA_DATA_PATH", app.DataPath)
+	utl.OverrideEnv("INSOMNIA_DISABLE_AUTOMATIC_UPDATES", "true")
 
 	defer app.Close()
 	app.Launch(os.Args[1:])
