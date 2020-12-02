@@ -6,9 +6,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/portapps/portapps/v2"
-	"github.com/portapps/portapps/v2/pkg/log"
-	"github.com/portapps/portapps/v2/pkg/utl"
+	"github.com/portapps/portapps/v3"
+	"github.com/portapps/portapps/v3/pkg/log"
+	"github.com/portapps/portapps/v3/pkg/utl"
 )
 
 type config struct {
@@ -36,7 +36,12 @@ func init() {
 
 func main() {
 	utl.CreateFolder(app.DataPath)
-	electronBinPath := utl.PathJoin(app.AppPath, utl.FindElectronAppFolder("app-", app.AppPath))
+
+	electronAppFolder, err := utl.FindElectronAppFolder("app-", app.AppPath)
+	if err != nil {
+		log.Fatal().Msgf("Electron main folder not found")
+	}
+	electronBinPath := utl.PathJoin(app.AppPath, electronAppFolder)
 
 	app.Process = utl.PathJoin(electronBinPath, "Insomnia.exe")
 	app.WorkingDir = electronBinPath
@@ -53,8 +58,8 @@ func main() {
 		}()
 	}
 
-	utl.OverrideEnv("INSOMNIA_DATA_PATH", app.DataPath)
-	utl.OverrideEnv("INSOMNIA_DISABLE_AUTOMATIC_UPDATES", "true")
+	os.Setenv("INSOMNIA_DATA_PATH", app.DataPath)
+	os.Setenv("INSOMNIA_DISABLE_AUTOMATIC_UPDATES", "true")
 
 	defer app.Close()
 	app.Launch(os.Args[1:])
