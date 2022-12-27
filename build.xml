@@ -25,13 +25,7 @@
       <arg value="app.asar"/>
       <arg value="app"/>
     </exec>
-
-    <echo message="Replacing in app.asar..."/>
-    <assertfile file="${build.path}\${papp.folder}\app-${app.version}\resources\app\${electron.appasar.file}"/>
-    <replace file="${build.path}\${papp.folder}\app-${app.version}\resources\app\${electron.appasar.file}" failOnNoReplacements="true">
-      <replacefilter token="${electron.appasar.search}" value="${electron.appasar.replace}"/>
-    </replace>
-
+    
     <echo message="Removing app.asar..."/>
     <delete file="${build.path}\${papp.folder}\app-${app.version}\resources\app.asar"/>
   </target>
