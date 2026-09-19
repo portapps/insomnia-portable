@@ -87,23 +87,7 @@ jobs:
               return content.replace(pattern, (_, prefix) => `${prefix}${value}`);
             }
 
-            function compareVersions(left, right) {
-              const leftParts = left.split('.').map(Number);
-              const rightParts = right.split('.').map(Number);
-              for (let i = 0; i < Math.max(leftParts.length, rightParts.length); i++) {
-                const diff = (leftParts[i] || 0) - (rightParts[i] || 0);
-                if (diff !== 0) {
-                  return diff;
-                }
-              }
-              return 0;
-            }
-
             function compareCandidates(left, right) {
-              const versionDiff = compareVersions(left.version, right.version);
-              if (versionDiff !== 0) {
-                return versionDiff;
-              }
               return new Date(left.publishedAt) - new Date(right.publishedAt);
             }
 
